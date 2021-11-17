@@ -1,5 +1,6 @@
 # Globalization
 
+```csharp
 using System.Globalization;
 
 var allCultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
@@ -21,3 +22,4 @@ allCultures.AsEnumerable().ToList().ForEach(c =>
         }
     }
 });
+```
